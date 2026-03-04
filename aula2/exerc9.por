@@ -1,6 +1,6 @@
 programa
 {
-	/* 
+	/* 
 	9) Criar um algoritmo para ler dois números do tipo inteiro e mostrar se um é multiplodo outro em qualquer ordem de digitação.
 	*/
 	funcao inicio()
@@ -13,10 +13,7 @@ programa
 		escreva("Digite o segundo nº: ")
 		leia(num2)
 
-		multiplo = num1 % num2
-		multiplo_inv = num2 % num1
-
-		se(multiplo == 0 ou multiplo_inv == 0){
+		se(num1%num2 == 0 ou num2%num1 == 0){
 			escreva("É multiplo!")
 			}
 		senao{
@@ -29,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 150; 
+ * @POSICAO-CURSOR = 432; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
