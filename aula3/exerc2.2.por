@@ -7,7 +7,7 @@ programa
 		inteiro c1=0, c2=0, c3=0, c4=0, c5=0
 		real totalConta = 0.0
 		caracter continuar = 'S'
-faca
+
 		faca{
 			escreva("--- Max's Lanches --- \n")
 			escreva("1 - Hambúrguer........ R$ 3,00\n")
@@ -21,7 +21,7 @@ faca
 			se(opcao != 0){
 				escreva("Qual a quantidade? ")
 				leia(quantidade)
-
+				
 				escolha(opcao){
 						caso 1: totalConta += 3.00 * quantidade
 							   c1 += quantidade
@@ -63,7 +63,7 @@ faca
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1184; 
+ * @POSICAO-CURSOR = 128; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
