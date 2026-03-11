@@ -76,9 +76,6 @@ programa
 				escreva("\nConvidado removido com sucesso!")
 				pare
 			}
-			senao {
-				escreva("\nConvidado não encontrado.\n")
-			}
 		}
 	}
 
@@ -102,7 +99,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1881; 
+ * @POSICAO-CURSOR = 96; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
