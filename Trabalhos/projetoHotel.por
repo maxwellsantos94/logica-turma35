@@ -6,7 +6,7 @@ programa
 	inteiro hotel[8][15]
 	inteiro andar, quarto, vago = 120, ocupado = 0
 
-	// Função para exibir o mapa de quartos
+	// Função para exibir o mapa
 	funcao lerMatrix(inteiro matriz[][]){
 		escreva("\n- MAPA DE OCUPAÇÃO (0=LIVRE, 1=OCUPADO) -")
 		para(inteiro i = 7; i >= 0; i--){
@@ -87,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1397; 
+ * @POSICAO-CURSOR = 144; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
